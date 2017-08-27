@@ -15,5 +15,5 @@ then
   git commit -m "[UPD] build from $(date +'%d/%m/%Y')"
   git config --global push.default current
   git push
-  git config --global push.default master
+  git config --global push.default simple
 fi
