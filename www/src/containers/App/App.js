@@ -40,7 +40,7 @@ class App extends Component {
         ref={c => this._app = c}
       >
         <Head />
-
+        <div className="mask" />
         {children}
       </div>
     )

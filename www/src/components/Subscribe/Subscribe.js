@@ -21,7 +21,7 @@ class Subscribe extends Component {
 
     return (
       <form
-        className="subscribe"
+        className="Subscribe"
         action={action}
         method="POST"
         name="mc-embedded-subscribe-form"
