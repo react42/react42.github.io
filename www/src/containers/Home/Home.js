@@ -1,14 +1,13 @@
 import React from 'react'
-import { Container } from 'bloomer'
 
 import { Subscribe } from '../../components'
 
 import './Home.css'
 
 const Home = () => (
-  <Container className="Home">
+  <div className="Home">
     <Subscribe />
-  </Container>
+  </div>
 )
 
 export default Home
